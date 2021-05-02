@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E4CFA7F263E310700842FC2 /* Recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E4CFA7D263E310700842FC2 /* Recursion.cpp */; };
 		1E5CF31B262CE68900F72631 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF31A262CE68900F72631 /* main.cpp */; };
-		1E5CF322262CF59500F72631 /* ArraySolutions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF321262CF59500F72631 /* ArraySolutions.cpp */; };
+		1E5CF322262CF59500F72631 /* Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E5CF321262CF59500F72631 /* Arrays.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E4CFA7D263E310700842FC2 /* Recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Recursion.cpp; sourceTree = "<group>"; };
+		1E4CFA7E263E310700842FC2 /* Recursion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Recursion.hpp; sourceTree = "<group>"; };
 		1E5CF317262CE68900F72631 /* C++Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5CF31A262CE68900F72631 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		1E5CF320262CF51C00F72631 /* ArraySolutions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArraySolutions.h; sourceTree = "<group>"; };
-		1E5CF321262CF59500F72631 /* ArraySolutions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraySolutions.cpp; sourceTree = "<group>"; };
+		1E5CF320262CF51C00F72631 /* Arrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arrays.h; sourceTree = "<group>"; };
+		1E5CF321262CF59500F72631 /* Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				1E5CF31A262CE68900F72631 /* main.cpp */,
-				1E5CF321262CF59500F72631 /* ArraySolutions.cpp */,
-				1E5CF320262CF51C00F72631 /* ArraySolutions.h */,
+				1E5CF321262CF59500F72631 /* Arrays.cpp */,
+				1E5CF320262CF51C00F72631 /* Arrays.h */,
+				1E4CFA7D263E310700842FC2 /* Recursion.cpp */,
+				1E4CFA7E263E310700842FC2 /* Recursion.hpp */,
 			);
 			path = "C++Practice";
 			sourceTree = "<group>";
@@ -123,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E5CF322262CF59500F72631 /* ArraySolutions.cpp in Sources */,
+				1E4CFA7F263E310700842FC2 /* Recursion.cpp in Sources */,
+				1E5CF322262CF59500F72631 /* Arrays.cpp in Sources */,
 				1E5CF31B262CE68900F72631 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
